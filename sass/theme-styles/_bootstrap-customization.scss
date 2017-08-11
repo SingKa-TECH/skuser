@@ -1,0 +1,100 @@
+/*------------- #BOOTSTRAP-CUSTOMIZATION --------------*/
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  transition: all .15s ease;
+}
+
+select,
+input,
+.form-control {
+  background-color: transparent;
+}
+
+select, input {
+  display: block;
+  width: 100%;
+  padding: 1.1rem 1.1rem;
+  font-size: .875rem;
+  line-height: 1.25;
+  color: #464a4c;
+  background-color: transparent;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #e6ecf5;
+  border-radius: 0.25rem;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+p {
+  font-size: .875rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #515365;
+}
+
+.nav-tabs .nav-item {
+  position: relative;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.form-group.label-floating label.control-label,
+.form-group.label-placeholder label.control-label {
+  top: 16px;
+  font-size: 14px;
+  line-height: 1.42857;
+  left: 20px;
+}
+
+.form-group.label-static label.control-label,
+.form-group.label-floating.is-focused label.control-label,
+.form-group.label-floating:not(.is-empty) label.control-label {
+  top: 10px;
+  font-size: 11px;
+  line-height: 1.07143;
+}
+
+.form-group.label-static label.control-label,
+.form-group.label-placeholder label.control-label,
+.form-group.label-floating label.control-label {
+  position: absolute;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  a {
+    color: #515365;
+    display: block;
+
+    &:hover, &:focus {
+      color: #515365;
+    }
+  }
+  i, svg {
+    float: right;
+    transition: all .3s ease;
+    margin-top: 8px;
+  }
+
+  .collapsed i {
+    transform: rotate(-90deg);
+  }
+}

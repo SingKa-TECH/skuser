@@ -1,0 +1,93 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Window Popup</title>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
+
+	<!-- Theme Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+
+	<!-- Main Font -->
+	<script src="js/webfontloader.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- Styles for plugins -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+
+</head>
+
+<body class="overlay-enable modal-open">
+
+
+<div class="modal fade show" id="edit-widget-blog-post" style="display: block">
+	<div class="modal-dialog ui-block window-popup edit-widget edit-widget-blog-post">
+		<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+			<svg class="olymp-close-icon"><use xlink:href="icons/icons.svg#olymp-close-icon"></use></svg>
+		</a>
+
+		<div class="ui-block-title">
+			<h6 class="title">Edit Blog Posts</h6>
+		</div>
+
+		<div class="ui-block-content">
+			<fieldset class="form-group label-floating is-select">
+				<label class="control-label">Amount of Blog Posts</label>
+				<select class="selectpicker form-control" size="auto">
+					<option value="AL">Show 3 Blog Posts</option>
+					<option value="2">Show 6 Blog Posts</option>
+					<option value="WY">Show 9 Blog Posts</option>
+				</select>
+			</fieldset>
+
+			<fieldset class="form-group label-floating is-select">
+				<label class="control-label">Organize Posts</label>
+				<select class="selectpicker form-control" size="auto">
+					<option value="AL">By Date (Newest to Oldest)</option>
+					<option value="2">By Favorites</option>
+					<option value="WY">By Repost</option>
+				</select>
+			</fieldset>
+
+			<a href="#" class="btn btn-primary btn-lg full-width">Save all Changes</a>
+		</div>
+
+	</div>
+</div>
+
+<!-- jQuery first, then Other JS. -->
+<script src="js/jquery-3.2.0.min.js"></script>
+<!-- Js effects for material design. + Tooltips -->
+<script src="js/material.min.js"></script>
+<!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+<script src="js/theme-plugins.js"></script>
+<!-- Init functions -->
+<script src="js/main.js"></script>
+
+<!-- Select / Sorting script -->
+<script src="js/selectize.min.js"></script>
+
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/mediaelement-playlist-plugin.min.js"></script>
+
+</body>
+</html>

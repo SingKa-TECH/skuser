@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Profile Page - Window Popup</title>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
+
+	<!-- Theme Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+
+	<!-- Main Font -->
+	<script src="js/webfontloader.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- Styles for plugins -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+
+
+</head>
+
+<body class="overlay-enable modal-open">
+
+
+<!-- Window-popup Create Photo Album -->
+
+<div class="modal fade show" id="create-photo-album" style="display: block">
+	<div class="modal-dialog ui-block window-popup create-photo-album">
+		<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+			<svg class="olymp-close-icon"><use xlink:href="icons/icons.svg#olymp-close-icon"></use></svg>
+		</a>
+
+		<div class="ui-block-title">
+			<h6 class="title">Create Photo Album</h6>
+		</div>
+
+		<div class="ui-block-content">
+
+			<form class="form-group label-floating">
+				<label class="control-label">Album Name</label>
+				<input class="form-control" placeholder="" type="text" value="Rock Garden Festival - Day 4">
+			</form>
+
+			<div class="photo-album-wrapper">
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item create-album" data-mh="album-item">
+						<div class="content">
+							<a href="#" class="btn btn-control bg-primary">
+								<svg class="olymp-plus-icon"><use xlink:href="icons/icons.svg#olymp-plus-icon"></use></svg>
+							</a>
+
+							<a href="#" class="title h5">Add More Photos...</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="img/photo-album6.jpg" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="icons/icons.svg#olymp-happy-face-icon"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true" size="auto">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="img/avatar52-sm.jpg" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar74-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar48-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar75-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar76-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="img/photo-album7.jpg" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="icons/icons.svg#olymp-happy-face-icon"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true" size="auto">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="img/avatar52-sm.jpg" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar74-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar48-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar75-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar76-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="img/photo-album8.jpg" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="icons/icons.svg#olymp-happy-face-icon"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true" size="auto">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="img/avatar52-sm.jpg" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar74-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar48-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar75-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar76-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="img/photo-album9.jpg" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="icons/icons.svg#olymp-happy-face-icon"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true" size="auto">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="img/avatar52-sm.jpg" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar74-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar48-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar75-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar76-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="img/photo-album10.jpg" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="icons/icons.svg#olymp-happy-face-icon"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true" size="auto">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="img/avatar52-sm.jpg" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar74-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar48-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar75-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="img/avatar76-sm.jpg" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>
+								</option>
+
+							</select>
+						</form>
+
+					</div>
+				</div>
+			</div>
+
+			<a href="#" class="btn btn-secondary btn-lg btn--half-width">Discard Everything</a>
+			<a href="#" class="btn btn-primary btn-lg btn--half-width">Post Album</a>
+
+		</div>
+	</div>
+</div>
+
+<!-- ... end Window-popup Create Photo Album -->
+
+
+<!-- jQuery first, then Other JS. -->
+<script src="js/jquery-3.2.0.min.js"></script>
+<!-- Js effects for material design. + Tooltips -->
+<script src="js/material.min.js"></script>
+<!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+<script src="js/theme-plugins.js"></script>
+<!-- Init functions -->
+<script src="js/main.js"></script>
+
+<!-- Select / Sorting script -->
+<script src="js/selectize.min.js"></script>
+
+<!-- Swiper / Sliders -->
+<script src="js/swiper.jquery.min.js"></script>
+
+<!-- Datepicker input field script-->
+<script src="js/moment.min.js"></script>
+<script src="js/daterangepicker.min.js"></script>
+
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/mediaelement-playlist-plugin.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Window Popup - Favourite Page Popup</title>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
+
+	<!-- Theme Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+
+	<!-- Main Font -->
+	<script src="js/webfontloader.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- Styles for plugins -->
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+
+
+</head>
+
+<body class="overlay-enable modal-open">
+
+
+<!-- Window Popup Favourite Page -->
+
+<div class="modal fade show" id="fav-page-popup" style="display:block;">
+	<div class="modal-dialog ui-block window-popup fav-page-popup">
+		<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+			<svg class="olymp-close-icon"><use xlink:href="icons/icons.svg#olymp-close-icon"></use></svg>
+		</a>
+
+		<div class="ui-block-title">
+			<h6 class="title">Create Favourite Page</h6>
+		</div>
+
+		<div class="ui-block-content">
+			<form>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group label-floating is-empty">
+							<label class="control-label">First Name</label>
+							<input class="form-control" placeholder="" type="text" value="Green Goo">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group label-floating is-empty">
+							<label class="control-label">Last Name</label>
+							<input class="form-control" placeholder="" type="text" value="Rock">
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group label-floating is-empty">
+							<label class="control-label">Your Email</label>
+							<input class="form-control" placeholder="" type="email" value="greengoo_gigs@yourmail.com">
+						</div>
+
+						<div class="form-group label-floating is-empty">
+							<label class="control-label">Your Website</label>
+							<input class="form-control" placeholder="" type="email" value="www.ggrock.com">
+						</div>
+
+						<div class="form-group label-floating is-select">
+							<label class="control-label">Category</label>
+							<select class="selectpicker form-control" size="auto">
+								<option value="MA">Rock Band</option>
+								<option value="FE">Pop Band</option>
+								<option value="FE">Jazz Band</option>
+							</select>
+						</div>
+
+						<div class="form-group label-floating is-empty">
+							<label class="control-label">Write a little description about the page</label>
+							<textarea class="form-control" placeholder="">We are Rock Band from Los Angeles, now based in San Francisco, come and listen to us play!</textarea>
+						</div>
+
+						<div class="form-group label-floating is-select">
+							<label class="control-label">Invite Friends</label>
+							<select class="selectpicker form-control" multiple>
+								<option value="MB" selected>Mathilda Brinker</option>
+								<option value="NG" selected>Nicholas Grissom</option>
+								<option value="TS">Tony Stevens</option>
+							</select>
+						</div>
+
+						<button class="btn btn-primary btn-lg full-width">Create Favourite Page</button>
+					</div>
+
+
+				</div>
+
+			</form>
+		</div>
+
+	</div>
+</div>
+
+<!-- ... end Window Popup Favourite Page -->
+
+
+
+<!-- jQuery first, then Other JS. -->
+<script src="js/jquery-3.2.0.min.js"></script>
+<!-- Js effects for material design. + Tooltips -->
+<script src="js/material.min.js"></script>
+<!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+<script src="js/theme-plugins.js"></script>
+<!-- Init functions -->
+<script src="js/main.js"></script>
+
+<!-- Select / Sorting script -->
+<script src="js/selectize.min.js"></script>
+
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/mediaelement-playlist-plugin.min.js"></script>
+
+
+</body>
+</html>
